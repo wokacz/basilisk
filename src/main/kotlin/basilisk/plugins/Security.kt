@@ -19,13 +19,14 @@ fun Application.configureSecurity() {
         jwt {
             realm = jwtRealm
             verifier(
-                JWT.require(Algorithm.HMAC256(jwtSecret)).withAudience(jwtAudience).withIssuer(jwtDomain).build()
+                JWT.require(Algorithm.HMAC256(jwtSecret)).withAudience(jwtAudience).withIssuer(jwtDomain).build(),
             )
             validate { credential ->
                 if (credential.payload.audience.contains(jwtAudience)) JWTPrincipal(credential.payload) else null
             }
         }
     }
+
     data class MySession(val count: Int = 0)
     install(Sessions) {
         cookie<MySession>("MY_SESSION") {
