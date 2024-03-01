@@ -1,4 +1,4 @@
-package epicup.plugins
+package basilisk.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*

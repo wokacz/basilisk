@@ -1,4 +1,4 @@
-package epicup.plugins
+package basilisk.plugins
 
 import kotlinx.coroutines.*
 import kotlinx.serialization.Serializable

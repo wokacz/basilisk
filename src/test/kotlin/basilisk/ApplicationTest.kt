@@ -1,6 +1,6 @@
-package epicup
+package basilisk
 
-import epicup.plugins.*
+import basilisk.plugins.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

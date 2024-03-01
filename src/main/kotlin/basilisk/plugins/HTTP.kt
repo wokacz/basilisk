@@ -1,4 +1,4 @@
-package epicup.plugins
+package basilisk.plugins
 
 import io.ktor.http.*
 import io.ktor.server.application.*

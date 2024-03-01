@@ -1,4 +1,4 @@
-package epicup.plugins
+package basilisk.plugins
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm

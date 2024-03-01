@@ -1,9 +1,9 @@
 ktor:
   application:
     modules:
-      - epicup.ApplicationKt.module
+      - basilisk.ApplicationKt.module
   deployment:
-    port: 8080
+    port: 3000
 jwt:
   domain: "https://jwt-provider-domain/"
   audience: "jwt-audience"

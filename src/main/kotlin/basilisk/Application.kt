@@ -1,6 +1,9 @@
-package epicup
+package basilisk
 
-import epicup.plugins.*
+import basilisk.plugins.configureHTTP
+import basilisk.plugins.configureRouting
+import basilisk.plugins.configureSecurity
+import basilisk.plugins.configureSerialization
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {
