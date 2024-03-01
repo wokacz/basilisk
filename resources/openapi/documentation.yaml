@@ -1,0 +1,8 @@
+openapi: "3.1.0"
+info:
+  title: "Basilisk API"
+  description: "Basilisk API"
+  version: "1.0.0"
+servers:
+- url: "https://Basilisk"
+paths: {}
